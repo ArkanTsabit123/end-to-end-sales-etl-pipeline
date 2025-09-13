@@ -1,0 +1,19 @@
+end-to-end-sales-etl-pipeline/
+│
+├── data/
+│   ├── raw/                   # Raw input data (e.g., sales_data_raw.csv)
+│   ├── processed/             # Transformed data (optional, for inspection)
+│   └── output/                # Final output files (optional)
+│
+├── scripts/
+│   ├── extract.py             # Data extraction logic
+│   ├── transform_spark.py     # Data transformation using PySpark
+│   ├── load.py                # Data loading into MySQL
+│   └── main.py                # Main script to run the entire ETL process
+│
+├── database/
+│   └── schema.sql             # SQL commands to create the database schema
+│
+├── docs/                      # Additional documentation
+├── requirements.txt           # Python dependencies
+└── README.md                  # This file
