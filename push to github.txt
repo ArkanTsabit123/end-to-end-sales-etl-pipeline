@@ -1,0 +1,10 @@
+GitHub Push Steps
+
+# 1. Add the modified file
+git add test.py
+
+# 2. Commit with a clear message
+git commit -m "(message to include)"
+
+# 3. Push to GitHub
+git push origin main
