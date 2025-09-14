@@ -40,7 +40,6 @@ print (f"you ran {distance}")
 # Boolean
 # Boolean only  have 2 options = True or False
 
-
 is_student = False   # or True
 if is_student:
     print("You are a student")
@@ -58,3 +57,29 @@ if is_online:
     print("You are online!")
 else:
     print("You are NOT online!")
+
+# Typecasting = convert the data type of a value to another data type
+#              = int() , float() , str() , bool()
+
+name = "Patrick Star"
+age = 12
+gpa = 3.4
+is_student = True
+
+name = "Patrick Star"
+age = 12
+gpa = 3.4
+is_student = True
+
+age = str(age)
+print(f"your age is {age}")  
+print(type(age))  
+
+#input() = user input always return a string
+
+name = input("What is your name? ")
+age = input("How old are you? ")
+age= int(age) 
+age = age + 1
+print(f"Hello {name}, Im spongebob")
+print(f"you are {age} years old, happy birthday!")
