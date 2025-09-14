@@ -58,4 +58,3 @@ if is_online:
     print("You are online!")
 else:
     print("You are NOT online!")
-
